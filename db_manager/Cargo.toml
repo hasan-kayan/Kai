@@ -1,0 +1,24 @@
+[package]
+name = "db_manager"
+edition = "2021"
+
+[features]            # İstediğin sisteme göre aç/kapat
+sqlite   = ["sqlx/sqlite"]
+postgres = ["sqlx/postgres"]
+mysql    = ["sqlx/mysql"]
+
+default = ["sqlite"]   # örnek
+
+[dependencies]
+anyhow      = "1"
+async-trait = "0.1"
+once_cell   = "1.19"
+serde       = { version = "1", features = ["derive"] }
+tokio       = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+sqlx = { version = "0.7", features = [
+  "runtime-tokio-rustls",
+  "macros",
+  "migrate",
+  "chrono"
+] }
