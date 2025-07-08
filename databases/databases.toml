@@ -1,6 +1,0 @@
-[[databases]]
-name     = "agent_db"
-engine   = "postgres"
-user     = "agent_user"
-password = "supersecret"
-host     = "postgres://agent_user:supersecret@localhost:5432"

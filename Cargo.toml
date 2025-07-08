@@ -1,0 +1,12 @@
+[package]
+name = "Kai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "=0.35.2"
+clap        = { version = "4.5", features = ["derive"] }
+owo-colors  = "4"
+ratatui    = "0.24"      # tui-rs çatallı, aktif geliştirilen sürüm
+crossterm  = "0.27"
+anyhow = "1.0"
