@@ -1,5 +1,6 @@
-// Tek collector var; gelecekte diğerlerini ekleyebilirsiniz
 pub mod disk;
+pub mod memory;
+pub mod procfs;
 
-// Re-export: diğer dosyalarda `collectors::list()` diye çağırabiliriz
-pub use disk::*;
+pub use disk::{list, DiskInfo}; // ✅ Re-export `list`
+pub use memory::{get_memory_stats, MemoryStats};
