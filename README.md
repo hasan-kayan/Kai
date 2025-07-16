@@ -179,4 +179,4 @@ Contributions are welcome! Please open an issue or submit a PR.
 
 ## ❓ Support
 
-Found a bug or want to request a feature? Open an issue or email me at [hello@hasankayan.com](mailto:hello@hasankayan.com)
+Found a bug or want to request a feature? Open an issue or email me at [hasankayanformal@gmail.com](mailto:hasankayanformal@gmail.com)
