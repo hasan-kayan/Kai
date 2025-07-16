@@ -1,9 +1,11 @@
 # Kai: The Ultimate System & Network Automation CLI Tool
 
 Kai is a powerful Rust-based system monitoring and automation CLI tool designed for Linux and macOS users. Combining the capabilities of `htop`, `proxychains`, Git automation, and system replication, Kai provides developers, system administrators, and power users a unified interface to manage local and remote environments effortlessly.
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hasan-kayan/Kai/main/assets/kai.png" alt="Kai Logo" width="180"/>
+  <img src="https://raw.githubusercontent.com/hasan-kayan/Kai/main/assets/kai.png" alt="Kai Logo" width="260" style="border-radius: 12px;" />
 </p>
+
 
 ---
 
